@@ -1,0 +1,15 @@
+{
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "description": "this is the readme file for the repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
