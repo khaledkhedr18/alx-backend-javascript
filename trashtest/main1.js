@@ -1,4 +1,3 @@
-import taskBlock from './task1.js';
+const materials = ['oxygen', 'halothane', 'sulphur'];
 
-console.log(taskBlock(true));
-console.log(taskBlock(false));
+console.log(materials.map((materials) => materials.length));
