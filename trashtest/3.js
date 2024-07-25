@@ -1,8 +1,10 @@
-function myFunc() {
-	console.log("No. of arguments is: " + arguments.length)
-	for (var i = 0; i < arguments.length; i++) {
-		console.log("Argument No. " + (i + 1) + " is " + arguments[i])
-	}
+export default function getSumOfHoods(
+  initialNumber = 0,
+  expansion1989 = 89,
+  expansion2019 = 19
+) {
+  return initialNumber + expansion1989 + expansion2019;
 }
-
-myFunc("khaled", "ahmed", "ahmed", "Awad", "Khedr"); 
+console.log(getSumOfHoods(34));
+console.log(getSumOfHoods(34, 3));
+console.log(getSumOfHoods(34, 3, 4));
