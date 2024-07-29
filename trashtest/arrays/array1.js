@@ -1,6 +1,7 @@
-const arr = [3, 4, 5];
-arr.copyWithin(0, 1, 2);
-
-const arr2 = arr.slice().copyWithin(0, 1, 2);
-const arr3 = [...arr2].copyWithin(0, 1, 2);
-console.log(arr3);
+const arrayLike = {
+	0: "a",
+	1: "b",
+	length: 2,
+  };
+  console.log(Array.prototype.join.call(arrayLike, "+")); // 'a+b'
+  
