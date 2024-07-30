@@ -14,10 +14,10 @@ export default function updateStudentGradeByCity(students, city, newGrades) {
     for (const gradeinfo of newGrades) {
       if (student.id === gradeinfo.studentId) {
         student.grade = newGrades.grade; // eslint-disable-line no-param-reassign
-      }
-      if (student.grade === undefined) {
-        student.grade = 'N/A'; // eslint-disable-line no-param-reassign
-      }
+      } 
+    }
+    if (student.grade === undefined) {
+      student.grade = 'N/A'; // eslint-disable-line no-param-reassign
     }
     return student;
   });
