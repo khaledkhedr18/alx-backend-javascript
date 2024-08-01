@@ -4,4 +4,4 @@ let first = numbers.find(myFunction);
 function myFunction(value, index, array) {
   return value > 18;
 }
-console.log(first)
+console.log(first);
